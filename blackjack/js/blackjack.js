@@ -1,31 +1,23 @@
-// let arry = ["../images/torannpu-spade1.png", "../images/torannpu-spade2.png","../images/torannpu-spade3.png","../images/torannpu-spade4.png","../images/torannpu-spade5.png",
-// "../images/torannpu-spade6.png","../images/torannpu-spade7.png","../images/torannpu-spade8.png","../images/torannpu-spade9.png","../images/torannpu-spade10.png","../images/torannpu-spade10j.png","../images/torannpu-spade10q.png","../images/torannpu-spade10k.png",
-// "../images/torannpu-dia1.png", "../images/torannpu-dia2.png","../images/torannpu-dia3.png","../images/torannpu-dia4.png","../images/torannpu-dia5.png", 
-// "../images/torannpu-dia6.png","../images/torannpu-dia7.png","../images/torannpu-dia8.png","../images/torannpu-dia9.png","../images/torannpu-dia10.png","../images/torannpu-dia10j.png","../images/torannpu-dia10q.png","../images/torannpu-dia10k.png",
-// "../images/torannpu-clova1.png","../images/torannpu-clova2.png","../images/torannpu-clova3.png","../images/torannpu-clova4.png","../images/torannpu-clova5.png",
-// "../images/torannpu-clova6.png","../images/torannpu-clova7.png","../images/torannpu-clova8.png","../images/torannpu-clova9.png","../images/torannpu-clova10.png","../images/torannpu-clova10j.png","../images/torannpu-clova10q.png","../images/torannpu-clova10k.png",
-// "../images/torannpu-heart1.png","../images/torannpu-heart2.png","../images/torannpu-heart3.png","../images/torannpu-heart4.png","../images/torannpu-heart5.png",
-// "../images/torannpu-heart6.png","../images/torannpu-heart7.png","../images/torannpu-heart8.png","../images/torannpu-heart9.png","../images/torannpu-heart10.png","../images/torannpu-heart10j.png","../images/torannpu-heart10q.png","../images/torannpu-heart10k.png"]
 
 let arry1 = new Array();
 for(let i = 0, n = 1; i < 10; i++, n++){
-    arry1[i] = "../images/torannpu-spade"+n+".png";
+    arry1[i] = "../../images/torannpu-spade"+n+".png";
     
 }
 let arry2 = new Array();
 for(let i = 0, n = 1; i < 10; i++, n++){
-    arry2[i] = "../images/torannpu-dia"+n+".png";
+    arry2[i] = "../../images/torannpu-dia"+n+".png";
 }
 let arry3 = new Array();
 for(let i = 0, n = 1; i < 10; i++, n++){
-    arry3[i] = "../images/torannpu-clova"+n+".png";
+    arry3[i] = "../../images/torannpu-clova"+n+".png";
 }
 let arry4 = new Array();
 for(let i = 0, n = 1; i < 10; i++, n++){
-    arry4[i] = "../images/torannpu-heart"+n+".png";
+    arry4[i] = "../../images/torannpu-heart"+n+".png";
 }
-let arry5 =["../images/torannpu-spade10j.png","../images/torannpu-spade10q.png","../images/torannpu-spade10k.png","../images/torannpu-dia10j.png","../images/torannpu-dia10q.png","../images/torannpu-dia10k.png",
-"../images/torannpu-clova10j.png","../images/torannpu-clova10q.png","../images/torannpu-clova10k.png","../images/torannpu-heart10j.png","../images/torannpu-heart10q.png","../images/torannpu-heart10k.png"];
+let arry5 =["../../images/torannpu-spade10j.png","../../images/torannpu-spade10q.png","../../images/torannpu-spade10k.png","../../images/torannpu-dia10j.png","../../images/torannpu-dia10q.png","../../images/torannpu-dia10k.png",
+"../../images/torannpu-clova10j.png","../../images/torannpu-clova10q.png","../../images/torannpu-clova10k.png","../../images/torannpu-heart10j.png","../../images/torannpu-heart10q.png","../../images/torannpu-heart10k.png"];
 let arry =[];
 arry = arry1.concat( arry2 ,arry3 ,arry4, arry5);
 console.log(arry);
