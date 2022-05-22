@@ -1,0 +1,48 @@
+.container {
+    background-color: seagreen;
+    width: 700px;
+    height: 550px;
+    
+}
+.ichi_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ni_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.san_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.yon_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.go_line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.roku_line {
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: calc(100%/10);
+}
+.cards img{
+    width: 100%;
+    height: 90px;
+}
+div {
+    width: 60px;
+    height: 90px;
+}
