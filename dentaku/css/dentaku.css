@@ -1,0 +1,66 @@
+.calculator {
+    width: 205px;
+    margin: auto;
+}
+.display {
+    width: 205px;
+    background: #5b5b5b;
+    text-align: right;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+.display.flashing {
+    animation-duration: 0.1s;
+}
+
+
+.commands {
+    width: 204px;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1px;
+  }
+  
+  .command {
+    width: 50px;
+    height: 45px;
+    background: #ddd;
+    margin: 0 1px 1px 0;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  .command.is-operator,
+  .command.is-equal {
+    background: pink;
+    color: #fff;
+  }
+  
+  .command.is-2col {
+    width: 101px;
+  }
+  
+  .command:active {
+    background: #bbb;
+  }
+  
+  .command.is-operator:active,
+  .command.is-equal:active {
+    background: #d37e00;
+  }
+  
+  .command.empty:active {
+    background: #ddd;
+  }
+  
+  #debug {
+    display: none;
+  }
+  
